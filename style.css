@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#Navbar {
+    background-color: #232f3e;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Navbar img {
+    height: 40px;
+}
+
+#main-banner {
+    background-image: url('https://via.placeholder.com/150');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
+#banner-info {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#about-section {
+    background-color: #f0f2f5;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-container,
+.skills-container-central {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.skills-container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#jobs-section {
+    background-color: #f0f2f5;
+    padding: 20px;
+}
+
+.job-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.job-box {
+    background-image: url('https://via.placeholder.com/150');
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    height: 200px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #232f3e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #e68a00;
+}
